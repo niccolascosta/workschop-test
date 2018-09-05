@@ -1,10 +1,16 @@
-# workschop-test
+## workschop-test
 
-clone this repository
+### Prerequisites for Building
 
-# requirements
+* Java 1.8 or above
+* Maven 3.3.9 or above
 
-JAVA 8
+### How to Build
 
-execute "mvn clean package"
+```bash
+cd /path/to/project-root
+mvn clean package
+```
+
+This build task compiles the code, builds a jar file in `build/libs` directory,
 
