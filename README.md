@@ -11,6 +11,10 @@
 cd /path/to/project-root
 mvn clean package
 ```
+This build task compiles the code, builds a jar file in `target/` directory.
 
-This build task compiles the code, builds a jar file in `build/libs` directory,
+### How to Run the Program
 
+```bash
+java -jar /path/to/project-root/target/tasks-0.0.1-SNAPSHOT.jar /path/to/project-root/src/test/resources/tasks
+```
